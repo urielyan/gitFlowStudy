@@ -12,4 +12,8 @@
 	git push orign dev
 	在服务器可以查看到两个分支dev、master。
 
-
+第二：
+	从远程克隆dev分支
+ 	git clone  -b dev https://github.com/urielyan/gitFlowStudy.git
+	创建release分支
+	git  checkout -b feature
